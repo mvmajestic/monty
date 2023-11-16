@@ -1,4 +1,5 @@
 #include "monty.h"
+
 /**
  * f_pint - will print the top
  * @head: stack head
@@ -19,4 +20,3 @@ void f_pint(stack_t **head, unsigned int counter)
 	}
 	printf("%d\n", (*head)->n);
 }
-
